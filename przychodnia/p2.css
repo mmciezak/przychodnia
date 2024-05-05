@@ -1,0 +1,191 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: url(tlo_main.jpg) no-repeat fixed;;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cabin', sans-serif;
+}
+#panel{
+    text-align: center;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.438);
+    width: 1200px;
+    min-height: 100%;
+}
+#a_panel{
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.a_panel{
+    font-size: 20px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.a_panel:hover{
+    box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.158) inset;
+    transition: 0.8s;
+    border-radius: 15px;
+}
+#logo{
+    width: 100px;
+}
+
+.a_left{
+    font-size: 20px;
+    color: black;
+    padding:10px 15px 10px 15px;
+    text-decoration: none;
+}
+.a_left:hover{
+    transition: 0.6s;
+    box-shadow: 0px 1px 17px rgba(255, 0, 0, 0.158) inset;
+    border-radius: 10px;
+    color:red;
+}
+li:hover{
+    color:red;
+}
+
+#img_szpital{
+    width: 1110px;
+}
+.middle{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 1048px;
+    border: 1px rgba(0, 0, 0, 0.315) solid;
+    font-size: 18px;
+}
+.middle_pac{
+    background-color: rgb(244, 252, 255);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    width: 1048px;
+    border: 1px rgba(0, 0, 0, 0.315) solid;
+}
+.dane_pacjenta{
+    margin: 20px;
+    padding: 30px;
+    min-width: 1010px;
+    max-width: 1110px;
+    border: 1px rgba(0, 0, 0, 0.315) solid;
+    background-color: white;
+}
+.td_pac{
+    width: 50%;
+    padding: 10px;
+}
+.td_mid{
+    width: 370px;
+    text-align: center;
+}
+#szczepienia{
+    width: 1200px;
+}
+#log{
+    margin: 20px;
+    text-align: center;
+    overflow: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 30px;
+}
+#logo_log{
+    width: 170px;
+    margin-top: 100px;
+}
+.text_log{
+    font-size: 25px;
+}
+.log{
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    margin-top: 10px;
+    border-bottom: 3px solid #001b7493;
+    border-top: 1px solid #001b7493;
+    border-left: 1px solid #001b7493;
+    border-right: 1px solid #001b7493;
+    border-radius: 10px;
+}
+.log:hover{
+    transition: 0.5s;
+    background-color: #1e1f682a;
+}
+.button{
+    margin-top: 15px;
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+    text-align: center;
+    border-bottom: 3px solid #001b7493;
+    border-top: 1px solid #001b7493;
+    border-left: 1px solid #001b7493;
+    border-right: 1px solid #001b7493;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.button:hover{
+    transition: 0.5s;
+    background-color: #1e1f6877;
+}
+.button:active{
+    font-size: 12px;
+    transition: 0.18;
+    width: 145px;
+    height: 33px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.658);
+}
+.cofnij{
+    text-decoration: none;
+    border:1px rgba(0, 0, 0, 0.315) solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cofnij:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+.wyswietl{
+    padding:10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border:1px rgba(0, 0, 0, 0.315) solid;
+    text-decoration: none;
+    color: black;
+}
+.wyswietl:hover{
+    background-color: white;
+    transition: 0.2s;
+}
+.wyswietl:active{
+    color: rgb(47, 0, 255);
+}
+
+
+
+
+
+
